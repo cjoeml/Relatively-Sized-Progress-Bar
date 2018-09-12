@@ -17,8 +17,10 @@ See testing. Since this is a very simple implementation of a progress bar, eithe
 
 This progress bar implementation keeps vanilla Python requirements in mind. No external libraries are used. The dependencies are listed below:
 ```
-time
 os
 sys
+time
+struct
+platform
 subprocess
 ```
