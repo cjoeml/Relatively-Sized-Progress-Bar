@@ -10,7 +10,7 @@ def ProgressBar(items, decimal=2, wait=0.05):
     """
     Desc : Create a progress bar with dynamic size
     Goal : Always fits within current terminal (at time of usage)
-    Reqs : time, os, sys, subprocess [deprecated: shutil]
+    Reqs : time, os, sys, subprocess, platform, struct (see con_size.py) [deprecated: shutil]
     ----------
     Parameters
     ----------
