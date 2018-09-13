@@ -21,8 +21,8 @@ def ProgressBar(items, decimal=2, wait=0.05):
 
     ## Below is deprecated but still can be used for user's own convenience ##
     ##----------------------------------------------------------------------##
-    ## length = os.popen('stty size', 'r').read().split()[1]        ##
-    ## length = shutil.get_terminal_size((80, 20))[0] - 30          ##
+    ## length = os.popen('stty size', 'r').read().split()[1]                ##
+    ## length = shutil.get_terminal_size((80, 20))[0] - 30                  ##
     ##----------------------------------------------------------------------##
 
     ## Build the variables ##
