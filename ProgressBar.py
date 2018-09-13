@@ -16,7 +16,7 @@ def ProgressBar(items, decimal=2, wait=0.05):
     ----------
     (int)  items   : REQUIRED - items to be iterated on
     (int)  decimal : OPTIONAL - Number of decimal places 
-    (float) wait    : OPTIONAL - time to sleep (pseudo-loading)
+    (float) wait   : OPTIONAL - time to sleep (pseudo-loading)
     """
 
     ## Below is deprecated but still can be used for user's own convenience ##
