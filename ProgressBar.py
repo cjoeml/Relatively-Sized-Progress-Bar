@@ -58,5 +58,5 @@ def ProgressBar(items, decimal=2, wait=0.05):
 
 ##============TESTING============##
 ## items = list(range(0, 67))    ##
-## ProgressBar(items)        ##
+## ProgressBar(items)            ##
 ##============TESTING============##
